@@ -1,0 +1,228 @@
+.body
+{
+    font-size: 30px;
+    font-family:"Lucida Console", "Courier New", monospace;
+    background-image: url("bg-main.jpg");
+    background-size: 100%;
+
+}
+
+.sidebar
+{
+    height: 100%; /* Height set to the full length of the page */
+    width: 160px; 
+    position: fixed; /* In order to get the bar to be fixed during scrolling */
+    top: 0; /* The sidebar is fixed to the top of the browsers display */
+    left: 0; /*The sidebar stays fixed to the left of the browsers dispolay*/
+    background-color: #111; /* BG color for our sidebar */
+    padding-top: 1em;
+    
+}
+
+.sidebar a
+{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+
+
+.sidebar a:hover
+{
+    color:blueviolet;
+}
+
+.content
+{
+    
+    margin-left: 160px;
+    color: whitesmoke;
+    right: 0;
+}
+
+.header
+{
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background: rgba(6, 6, 255, 0.473);
+}
+
+.pg24class
+{   
+    margin-top: 10px;
+    padding: 1px;
+    backdrop-filter: blur(20px);
+    text-align: justify;
+}
+
+
+.header-enjoy
+{
+    margin-top:10px;
+    text-align: center;
+    padding: 10px;
+    background: rgba(6, 255, 193, 0.473);
+}
+
+.meme img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.pg24s
+{   
+    margin-top: 10px;
+    padding: 1px;
+    backdrop-filter: blur(20px);
+    text-align: justify;
+}
+
+.music
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 50%;
+}
+
+.music audio
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.pedro-img img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 25%;   
+}
+
+.connor-img img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 20%;
+}
+
+.micaella-img img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 35%;
+}
+
+.gavin-img img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 20%;
+}
+
+.quentin-img img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 20%;
+}
+
+.marcus-img img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 40%;
+}
+
+.rafa-img img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 30%;
+}
+
+.rodrigo-img img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 25%;
+}
+
+.srujan-img img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 40%;
+}
+
+
+.music img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    width: 25%; 
+    border-radius: 50%;
+}
+
+.music h5
+{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    backdrop-filter: blur(20px);
+}
+
+audio::-webkit-media-controls-panel 
+{
+    background-color: #27ffffd8;
+}
+  
+audio::-webkit-media-controls-play-button 
+{
+    background-color: #0026ff7a;
+    border-radius: 50%;
+}
+  
+audio::-webkit-media-controls-play-button:hover 
+{
+    background-color: rgba(255, 27, 225, 0.7);
+}
+
+.feet
+{
+    margin-left: 160px;
+    margin-top: 50px;
+    font-size: .5em;
+    color: white;
+}
+
+
+
+
